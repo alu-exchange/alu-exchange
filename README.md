@@ -3,7 +3,7 @@
 [![Organization CI](https://github.com/alu-exchange/alu-frontend/actions/workflows/alu-ci.yml/badge.svg?branch=main)](https://github.com/alu-exchange/alu-frontend/actions/workflows/alu-ci.yml)
 
 Alu Exchange is a professional crypto trading platform.  
-This GitHub organization hosts all repositories for frontend, backend, admin, trading engine, wallet, DevOps, and documentation.
+This GitHub organization hosts all repositories for frontend, backend, admin panels, trading engine, wallet services, DevOps, and documentation.
 
 ---
 
@@ -16,9 +16,9 @@ This GitHub organization hosts all repositories for frontend, backend, admin, tr
 | 🛠️ [alu-admin-panel](https://github.com/alu-exchange/alu-admin-panel) | ![CI](https://github.com/alu-exchange/alu-admin-panel/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Admin dashboard: user management, trades monitoring, analytics. | React, TailwindCSS, Node.js |
 | 🔐 [alu-admin-backend](https://github.com/alu-exchange/alu-admin-backend) | ![CI](https://github.com/alu-exchange/alu-admin-backend/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Backend for admin panel: roles, audit logs, operational workflows. | Node.js, Express, PostgreSQL |
 | 📈 [alu-trading-engine](https://github.com/alu-exchange/alu-trading-engine) | ![CI](https://github.com/alu-exchange/alu-trading-engine/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Core trading engine: order matching, market pricing, trade execution, risk management. | C#, .NET 8, SQL Server |
-| 💰 [alu-wallet](https://github.com/alu-exchange/alu-wallet) | ![CI](https://github.com/alu-exchange/alu-wallet/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Wallet service: deposits, withdrawals, internal transfers, wallet security. | Node.js / Go, PostgreSQL |
-| 🛡️ [alu-devops-infra](https://github.com/alu-exchange/alu-devops-infra) | ![CI](https://github.com/alu-exchange/alu-devops-infra/actions/workflows/alu-ci.yml/badge.svg?branch=main) | DevOps scripts & infrastructure: CI/CD, deployment scripts, Terraform/Docker, monitoring. | Bash, PowerShell, Docker, Terraform, GitHub Actions |
-| 📖 [alu-docs](https://github.com/alu-exchange/alu-docs) | ![CI](https://github.com/alu-exchange/alu-docs/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Central documentation: API references, architecture, dev guides, operational procedures. | Markdown, MkDocs, Docusaurus |
+| 💰 [alu-wallet](https://github.com/alu-exchange/alu-wallet/actions/workflows/alu-ci.yml/badge.svg?branch=main) | ![CI](https://github.com/alu-exchange/alu-wallet/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Wallet service: deposits, withdrawals, internal transfers, wallet security. | Node.js / Go, PostgreSQL |
+| 🛡️ [alu-devops-infra](https://github.com/alu-exchange/alu-devops-infra/actions/workflows/alu-ci.yml/badge.svg?branch=main) | ![CI](https://github.com/alu-exchange/alu-devops-infra/actions/workflows/alu-ci.yml/badge.svg?branch=main) | DevOps scripts & infrastructure: CI/CD, deployment scripts, Terraform/Docker, monitoring. | Bash, PowerShell, Docker, Terraform, GitHub Actions |
+| 📖 [alu-docs](https://github.com/alu-exchange/alu-docs/actions/workflows/alu-ci.yml/badge.svg?branch=main) | ![CI](https://github.com/alu-exchange/alu-docs/actions/workflows/alu-ci.yml/badge.svg?branch=main) | Central documentation: API references, architecture, dev guides, operational procedures. | Markdown, MkDocs, Docusaurus |
 
 ---
 
@@ -40,13 +40,9 @@ This GitHub organization hosts all repositories for frontend, backend, admin, tr
 
 ---
 
-### 💡 Next Steps / Tips
+### 💡 Optional Enhancements
 
 - Add badges for:
   - Test coverage (unit tests/code coverage)  
   - Security (Dependabot alerts, GitHub code scanning)  
-  - License  
-
-- Keep sensitive repos private. Only public ones should be safe to show externally (docs, org dashboard).  
-
-- Pin this repo in your organization to highlight structure & CI/CD professionally.
+  - License
